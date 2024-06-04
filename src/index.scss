@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #000;
+}
+
+.count {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #000;
+  text-align: center;
+}
+
+.counter__container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+}
+
+button {
+  padding: 24px 48px;
+  border: 0;
+  background-color: rgb(37, 15, 206);
+  color: #fff;
+  font-size: 24px;
+  border-radius: 16px;
+  cursor: pointer;
+}

@@ -10,7 +10,7 @@ function Counter() {
   const dispatch = useDispatch();   
 
   return (
-    <div>
+    <div className="counter__container">  
       <button type="button" onClick={() => dispatch(plusCounter())}>
         +
       </button>
